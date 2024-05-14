@@ -3,57 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BFEC8152BF3AE2600920B2C /* vChewing_IMKUtils_ILIKeyImpl in Frameworks */ = {isa = PBXBuildFile; productRef = 5BFEC8142BF3AE2600920B2C /* vChewing_IMKUtils_ILIKeyImpl */; };
+		5BFEC8192BF3AE4600920B2C /* ILIKey_MainAssembly in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEC8162BF3AE4600920B2C /* ILIKey_MainAssembly */; };
+		5BFEC81A2BF3AE4600920B2C /* vChewing_IMKUtils_ILIKeyImpl in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEC8172BF3AE4600920B2C /* vChewing_IMKUtils_ILIKeyImpl */; };
+		5BFEC81D2BF3AE6200920B2C /* vChewing_IMKUtils_ILIKeyImpl in Frameworks */ = {isa = PBXBuildFile; productRef = 5BFEC81C2BF3AE6200920B2C /* vChewing_IMKUtils_ILIKeyImpl */; };
+		5BFEC8202BF3AE6B00920B2C /* ILIKeyMainAssembly in Frameworks */ = {isa = PBXBuildFile; productRef = 5BFEC81F2BF3AE6B00920B2C /* ILIKeyMainAssembly */; };
+		5BFEC8222BF3AE6B00920B2C /* IMKCandidatesImpl in Frameworks */ = {isa = PBXBuildFile; productRef = 5BFEC8212BF3AE6B00920B2C /* IMKCandidatesImpl */; };
+		5BFEC82C2BF3B55400920B2C /* MenuIcon-ILIMI.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEC8292BF3B55400920B2C /* MenuIcon-ILIMI.png */; };
+		5BFEC82D2BF3B55400920B2C /* MenuIcon-ILIMI@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEC82A2BF3B55400920B2C /* MenuIcon-ILIMI@2x.png */; };
 		D41FD2E22BF35AD4008EE47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41FD2E12BF35AD4008EE47E /* Assets.xcassets */; };
-		D41FD2E52BF35AD4008EE47E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41FD2E42BF35AD4008EE47E /* Preview Assets.xcassets */; };
-		D41FD2E72BF35AD4008EE47E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41FD2E62BF35AD4008EE47E /* Persistence.swift */; };
-		D41FD2EA2BF35AD4008EE47E /* ILIKey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D41FD2E82BF35AD4008EE47E /* ILIKey.xcdatamodeld */; };
-		D41FD2F52BF35AD4008EE47E /* ILIKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41FD2F42BF35AD4008EE47E /* ILIKeyTests.swift */; };
-		D41FD2FF2BF35AD4008EE47E /* ILIKeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41FD2FE2BF35AD4008EE47E /* ILIKeyUITests.swift */; };
-		D41FD3012BF35AD4008EE47E /* ILIKeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41FD3002BF35AD4008EE47E /* ILIKeyUITestsLaunchTests.swift */; };
-		D41FD30E2BF35B34008EE47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41FD30D2BF35B34008EE47E /* AppDelegate.swift */; };
-		D41FD3112BF35B7A008EE47E /* ConfigWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41FD3102BF35B7A008EE47E /* ConfigWindow.swift */; };
-		D41FD3142BF35C06008EE47E /* ConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41FD3132BF35C06008EE47E /* ConfigViewModel.swift */; };
-		D41FD3162BF35C78008EE47E /* ILIKeyInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41FD3152BF35C78008EE47E /* ILIKeyInputController.swift */; };
+		D41FD30E2BF35B34008EE47E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41FD30D2BF35B34008EE47E /* main.swift */; };
 		D41FD3182BF36023008EE47E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D41FD3172BF36023008EE47E /* Info.plist */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D41FD2F12BF35AD4008EE47E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41FD2D22BF35AD2008EE47E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D41FD2D92BF35AD2008EE47E;
-			remoteInfo = ILIKey;
-		};
-		D41FD2FB2BF35AD4008EE47E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41FD2D22BF35AD2008EE47E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D41FD2D92BF35AD2008EE47E;
-			remoteInfo = ILIKey;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		5BFEC8162BF3AE4600920B2C /* ILIKey_MainAssembly */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ILIKey_MainAssembly; sourceTree = "<group>"; };
+		5BFEC8172BF3AE4600920B2C /* vChewing_IMKUtils_ILIKeyImpl */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = vChewing_IMKUtils_ILIKeyImpl; sourceTree = "<group>"; };
+		5BFEC8292BF3B55400920B2C /* MenuIcon-ILIMI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuIcon-ILIMI.png"; sourceTree = "<group>"; };
+		5BFEC82A2BF3B55400920B2C /* MenuIcon-ILIMI@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuIcon-ILIMI@2x.png"; sourceTree = "<group>"; };
 		D41FD2DA2BF35AD2008EE47E /* ILIKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILIKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41FD2E12BF35AD4008EE47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D41FD2E42BF35AD4008EE47E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D41FD2E62BF35AD4008EE47E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		D41FD2E92BF35AD4008EE47E /* ILIKey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ILIKey.xcdatamodel; sourceTree = "<group>"; };
 		D41FD2EB2BF35AD4008EE47E /* ILIKey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ILIKey.entitlements; sourceTree = "<group>"; };
-		D41FD2F02BF35AD4008EE47E /* ILIKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILIKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D41FD2F42BF35AD4008EE47E /* ILIKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILIKeyTests.swift; sourceTree = "<group>"; };
-		D41FD2FA2BF35AD4008EE47E /* ILIKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILIKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D41FD2FE2BF35AD4008EE47E /* ILIKeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILIKeyUITests.swift; sourceTree = "<group>"; };
-		D41FD3002BF35AD4008EE47E /* ILIKeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILIKeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D41FD30D2BF35B34008EE47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D41FD3102BF35B7A008EE47E /* ConfigWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigWindow.swift; sourceTree = "<group>"; };
-		D41FD3132BF35C06008EE47E /* ConfigViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewModel.swift; sourceTree = "<group>"; };
-		D41FD3152BF35C78008EE47E /* ILIKeyInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILIKeyInputController.swift; sourceTree = "<group>"; };
+		D41FD30D2BF35B34008EE47E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D41FD3172BF36023008EE47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,33 +37,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D41FD2ED2BF35AD4008EE47E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D41FD2F72BF35AD4008EE47E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5BFEC8222BF3AE6B00920B2C /* IMKCandidatesImpl in Frameworks */,
+				5BFEC81D2BF3AE6200920B2C /* vChewing_IMKUtils_ILIKeyImpl in Frameworks */,
+				5BFEC8202BF3AE6B00920B2C /* ILIKeyMainAssembly in Frameworks */,
+				5BFEC8152BF3AE2600920B2C /* vChewing_IMKUtils_ILIKeyImpl in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BFEC8182BF3AE4600920B2C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5BFEC8162BF3AE4600920B2C /* ILIKey_MainAssembly */,
+				5BFEC8172BF3AE4600920B2C /* vChewing_IMKUtils_ILIKeyImpl */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		5BFEC8282BF3B52900920B2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BFEC82B2BF3B55400920B2C /* MenuIcons */,
+				D41FD3172BF36023008EE47E /* Info.plist */,
+				D41FD2E12BF35AD4008EE47E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5BFEC82B2BF3B55400920B2C /* MenuIcons */ = {
+			isa = PBXGroup;
+			children = (
+				5BFEC8292BF3B55400920B2C /* MenuIcon-ILIMI.png */,
+				5BFEC82A2BF3B55400920B2C /* MenuIcon-ILIMI@2x.png */,
+			);
+			name = MenuIcons;
+			path = "../../../ilimi-inputmethod/ilimi/MenuIcons";
+			sourceTree = "<group>";
+		};
 		D41FD2D12BF35AD2008EE47E = {
 			isa = PBXGroup;
 			children = (
-				D41FD3172BF36023008EE47E /* Info.plist */,
+				5BFEC8182BF3AE4600920B2C /* Packages */,
 				D41FD2DC2BF35AD2008EE47E /* ILIKey */,
-				D41FD2F32BF35AD4008EE47E /* ILIKeyTests */,
-				D41FD2FD2BF35AD4008EE47E /* ILIKeyUITests */,
 				D41FD2DB2BF35AD2008EE47E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,8 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				D41FD2DA2BF35AD2008EE47E /* ILIKey.app */,
-				D41FD2F02BF35AD4008EE47E /* ILIKeyTests.xctest */,
-				D41FD2FA2BF35AD4008EE47E /* ILIKeyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,58 +96,11 @@
 		D41FD2DC2BF35AD2008EE47E /* ILIKey */ = {
 			isa = PBXGroup;
 			children = (
-				D41FD3122BF35BE7008EE47E /* ViewModel */,
-				D41FD30F2BF35B68008EE47E /* View */,
-				D41FD2E12BF35AD4008EE47E /* Assets.xcassets */,
-				D41FD2E62BF35AD4008EE47E /* Persistence.swift */,
+				5BFEC8282BF3B52900920B2C /* Resources */,
 				D41FD2EB2BF35AD4008EE47E /* ILIKey.entitlements */,
-				D41FD2E82BF35AD4008EE47E /* ILIKey.xcdatamodeld */,
-				D41FD2E32BF35AD4008EE47E /* Preview Content */,
-				D41FD30D2BF35B34008EE47E /* AppDelegate.swift */,
-				D41FD3152BF35C78008EE47E /* ILIKeyInputController.swift */,
+				D41FD30D2BF35B34008EE47E /* main.swift */,
 			);
 			path = ILIKey;
-			sourceTree = "<group>";
-		};
-		D41FD2E32BF35AD4008EE47E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D41FD2E42BF35AD4008EE47E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		D41FD2F32BF35AD4008EE47E /* ILIKeyTests */ = {
-			isa = PBXGroup;
-			children = (
-				D41FD2F42BF35AD4008EE47E /* ILIKeyTests.swift */,
-			);
-			path = ILIKeyTests;
-			sourceTree = "<group>";
-		};
-		D41FD2FD2BF35AD4008EE47E /* ILIKeyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D41FD2FE2BF35AD4008EE47E /* ILIKeyUITests.swift */,
-				D41FD3002BF35AD4008EE47E /* ILIKeyUITestsLaunchTests.swift */,
-			);
-			path = ILIKeyUITests;
-			sourceTree = "<group>";
-		};
-		D41FD30F2BF35B68008EE47E /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D41FD3102BF35B7A008EE47E /* ConfigWindow.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D41FD3122BF35BE7008EE47E /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				D41FD3132BF35C06008EE47E /* ConfigViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,45 +120,15 @@
 			dependencies = (
 			);
 			name = ILIKey;
+			packageProductDependencies = (
+				5BFEC8142BF3AE2600920B2C /* vChewing_IMKUtils_ILIKeyImpl */,
+				5BFEC81C2BF3AE6200920B2C /* vChewing_IMKUtils_ILIKeyImpl */,
+				5BFEC81F2BF3AE6B00920B2C /* ILIKeyMainAssembly */,
+				5BFEC8212BF3AE6B00920B2C /* IMKCandidatesImpl */,
+			);
 			productName = ILIKey;
 			productReference = D41FD2DA2BF35AD2008EE47E /* ILIKey.app */;
 			productType = "com.apple.product-type.application";
-		};
-		D41FD2EF2BF35AD4008EE47E /* ILIKeyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D41FD3072BF35AD4008EE47E /* Build configuration list for PBXNativeTarget "ILIKeyTests" */;
-			buildPhases = (
-				D41FD2EC2BF35AD4008EE47E /* Sources */,
-				D41FD2ED2BF35AD4008EE47E /* Frameworks */,
-				D41FD2EE2BF35AD4008EE47E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D41FD2F22BF35AD4008EE47E /* PBXTargetDependency */,
-			);
-			name = ILIKeyTests;
-			productName = ILIKeyTests;
-			productReference = D41FD2F02BF35AD4008EE47E /* ILIKeyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D41FD2F92BF35AD4008EE47E /* ILIKeyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D41FD30A2BF35AD4008EE47E /* Build configuration list for PBXNativeTarget "ILIKeyUITests" */;
-			buildPhases = (
-				D41FD2F62BF35AD4008EE47E /* Sources */,
-				D41FD2F72BF35AD4008EE47E /* Frameworks */,
-				D41FD2F82BF35AD4008EE47E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D41FD2FC2BF35AD4008EE47E /* PBXTargetDependency */,
-			);
-			name = ILIKeyUITests;
-			productName = ILIKeyUITests;
-			productReference = D41FD2FA2BF35AD4008EE47E /* ILIKeyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -230,14 +143,6 @@
 					D41FD2D92BF35AD2008EE47E = {
 						CreatedOnToolsVersion = 15.3;
 					};
-					D41FD2EF2BF35AD4008EE47E = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = D41FD2D92BF35AD2008EE47E;
-					};
-					D41FD2F92BF35AD4008EE47E = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = D41FD2D92BF35AD2008EE47E;
-					};
 				};
 			};
 			buildConfigurationList = D41FD2D52BF35AD2008EE47E /* Build configuration list for PBXProject "ILIKey" */;
@@ -249,13 +154,15 @@
 				Base,
 			);
 			mainGroup = D41FD2D12BF35AD2008EE47E;
+			packageReferences = (
+				5BFEC81B2BF3AE6200920B2C /* XCLocalSwiftPackageReference "Packages/vChewing_IMKUtils_ILIKeyImpl" */,
+				5BFEC81E2BF3AE6B00920B2C /* XCLocalSwiftPackageReference "Packages/ILIKey_MainAssembly" */,
+			);
 			productRefGroup = D41FD2DB2BF35AD2008EE47E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D41FD2D92BF35AD2008EE47E /* ILIKey */,
-				D41FD2EF2BF35AD4008EE47E /* ILIKeyTests */,
-				D41FD2F92BF35AD4008EE47E /* ILIKeyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,23 +172,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41FD2E52BF35AD4008EE47E /* Preview Assets.xcassets in Resources */,
+				5BFEC81A2BF3AE4600920B2C /* vChewing_IMKUtils_ILIKeyImpl in Resources */,
+				5BFEC82C2BF3B55400920B2C /* MenuIcon-ILIMI.png in Resources */,
 				D41FD2E22BF35AD4008EE47E /* Assets.xcassets in Resources */,
+				5BFEC82D2BF3B55400920B2C /* MenuIcon-ILIMI@2x.png in Resources */,
+				5BFEC8192BF3AE4600920B2C /* ILIKey_MainAssembly in Resources */,
 				D41FD3182BF36023008EE47E /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D41FD2EE2BF35AD4008EE47E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D41FD2F82BF35AD4008EE47E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,46 +208,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41FD30E2BF35B34008EE47E /* AppDelegate.swift in Sources */,
-				D41FD3142BF35C06008EE47E /* ConfigViewModel.swift in Sources */,
-				D41FD2E72BF35AD4008EE47E /* Persistence.swift in Sources */,
-				D41FD2EA2BF35AD4008EE47E /* ILIKey.xcdatamodeld in Sources */,
-				D41FD3112BF35B7A008EE47E /* ConfigWindow.swift in Sources */,
-				D41FD3162BF35C78008EE47E /* ILIKeyInputController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D41FD2EC2BF35AD4008EE47E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D41FD2F52BF35AD4008EE47E /* ILIKeyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D41FD2F62BF35AD4008EE47E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D41FD2FF2BF35AD4008EE47E /* ILIKeyUITests.swift in Sources */,
-				D41FD3012BF35AD4008EE47E /* ILIKeyUITestsLaunchTests.swift in Sources */,
+				D41FD30E2BF35B34008EE47E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D41FD2F22BF35AD4008EE47E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D41FD2D92BF35AD2008EE47E /* ILIKey */;
-			targetProxy = D41FD2F12BF35AD4008EE47E /* PBXContainerItemProxy */;
-		};
-		D41FD2FC2BF35AD4008EE47E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D41FD2D92BF35AD2008EE47E /* ILIKey */;
-			targetProxy = D41FD2FB2BF35AD4008EE47E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D41FD3022BF35AD4008EE47E /* Debug */ = {
@@ -482,11 +343,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ILIKey/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "${SRCROOT}/ILIKey/Resources/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -510,11 +371,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ILIKey/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "${SRCROOT}/ILIKey/Resources/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -525,78 +386,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		D41FD3082BF35AD4008EE47E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SH6X4V52X3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jefferson.inputmethod.ILIKeyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ILIKey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ILIKey";
-			};
-			name = Debug;
-		};
-		D41FD3092BF35AD4008EE47E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SH6X4V52X3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jefferson.inputmethod.ILIKeyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ILIKey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ILIKey";
-			};
-			name = Release;
-		};
-		D41FD30B2BF35AD4008EE47E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SH6X4V52X3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jefferson.inputmethod.ILIKeyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = ILIKey;
-			};
-			name = Debug;
-		};
-		D41FD30C2BF35AD4008EE47E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SH6X4V52X3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jefferson.inputmethod.ILIKeyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = ILIKey;
 			};
 			name = Release;
 		};
@@ -621,38 +410,37 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D41FD3072BF35AD4008EE47E /* Build configuration list for PBXNativeTarget "ILIKeyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D41FD3082BF35AD4008EE47E /* Debug */,
-				D41FD3092BF35AD4008EE47E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D41FD30A2BF35AD4008EE47E /* Build configuration list for PBXNativeTarget "ILIKeyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D41FD30B2BF35AD4008EE47E /* Debug */,
-				D41FD30C2BF35AD4008EE47E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		D41FD2E82BF35AD4008EE47E /* ILIKey.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				D41FD2E92BF35AD4008EE47E /* ILIKey.xcdatamodel */,
-			);
-			currentVersion = D41FD2E92BF35AD4008EE47E /* ILIKey.xcdatamodel */;
-			path = ILIKey.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCLocalSwiftPackageReference section */
+		5BFEC81B2BF3AE6200920B2C /* XCLocalSwiftPackageReference "Packages/vChewing_IMKUtils_ILIKeyImpl" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/vChewing_IMKUtils_ILIKeyImpl;
 		};
-/* End XCVersionGroup section */
+		5BFEC81E2BF3AE6B00920B2C /* XCLocalSwiftPackageReference "Packages/ILIKey_MainAssembly" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/ILIKey_MainAssembly;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5BFEC8142BF3AE2600920B2C /* vChewing_IMKUtils_ILIKeyImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = vChewing_IMKUtils_ILIKeyImpl;
+		};
+		5BFEC81C2BF3AE6200920B2C /* vChewing_IMKUtils_ILIKeyImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = vChewing_IMKUtils_ILIKeyImpl;
+		};
+		5BFEC81F2BF3AE6B00920B2C /* ILIKeyMainAssembly */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ILIKeyMainAssembly;
+		};
+		5BFEC8212BF3AE6B00920B2C /* IMKCandidatesImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IMKCandidatesImpl;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D41FD2D22BF35AD2008EE47E /* Project object */;
 }
