@@ -8,5 +8,4 @@
 import InputMethodKit
 
 @objc(ILIKeyInputController)
-class ILIKeyInputController: IMKInputController {	
-}
+class ILIKeyInputController: IMKInputController {}

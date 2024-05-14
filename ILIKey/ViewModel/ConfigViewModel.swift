@@ -8,5 +8,5 @@
 import Foundation
 
 class ConfigViewModel: ObservableObject {
-	@Published var fontSize = 22
+    @Published var fontSize = 22
 }
